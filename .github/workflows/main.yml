@@ -7,7 +7,7 @@ jobs:
     name: Test and build
     runs-on: ubuntu-latest
     steps:
-      working-directory: flutter_app
+      - working-directory: flutter_app
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
         with:
